@@ -111,6 +111,7 @@ header {
 #contents {
     width: 1200px;
     height: 200px;
+    display: flex;
 }
 .con1 {
     padding: 10px;
@@ -147,6 +148,25 @@ header {
     display: inline-block;
     width: 130px;
     text-align: right;
+}
+.gallery {
+    display: none;
+}
+.gallery ul {
+    display: flex;
+}
+.gallery li {
+    width: 110px;
+    height: 110px;
+}
+.gallery img {
+    width: 110px;
+    height: 110px;
+    opacity: 0.6;
+}
+.gallery img:hover {
+    opacity: 1;
+    transition: all 0.8s;
 }
 .con2 {
     width: 400px;
